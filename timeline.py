@@ -91,7 +91,7 @@ def main():
     st.sidebar.markdown(f"## Riksdag Composition, {first_year}-{last_year}")
     election_results_df = election_results_data[closest_election_year]
     # Remove indices and round % to 1 decimal place
-    election_results_df = election_results_df.style.hide_index().format({'Vote %': '{:.1f}'}).render()
+    election_results_df = election_results_df.style.format({'Vote %': '{:.1f}'}).render()
     st.sidebar.markdown(election_results_df, unsafe_allow_html=True)
 
     # Add a column description for Class
