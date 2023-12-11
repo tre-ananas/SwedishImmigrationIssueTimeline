@@ -88,10 +88,6 @@ def main():
     last_year = closest_election_year + 4
 
 
-
-
-
-
     ### News Links ###
     ###
 
