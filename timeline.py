@@ -86,20 +86,6 @@ def main():
     # Find the range of years for the election composition
     first_year = closest_election_year
     last_year = closest_election_year + 4
-    
-    # Display election results table based on the closest election year
-    st.sidebar.markdown(f"## Riksdag Composition, {first_year}-{last_year}")
-    election_results_df = election_results_data[closest_election_year]
-    # Remove indices and round % to 1 decimal place
-    election_results_df = election_results_df.style.format({'Vote %': '{:.1f}'}).render()
-    st.sidebar.markdown(election_results_df, unsafe_allow_html=True)
-
-    # Add a column description for Class
-    st.sidebar.markdown("*Class represents the party's general stance on immigration.")
-    
-    # Add source link
-    source_link = f"[Source](http://www.electionresources.org/se/riksdag.php?election={closest_election_year}&constituency=)"
-    st.sidebar.markdown(source_link)
 
 
 
