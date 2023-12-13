@@ -124,14 +124,14 @@ def main():
         'Link 28': {'year': 2016, 'title': 'Coverups for Asylum Seekers', 'outlet': 'TIME', 'subtitle': 'Swedish police launch an investigation into a potential cover up of a sexual assaults perpetrated by Afghani migrants.', 'url': 'https://time.com/4176681/sweden-police-sexual-assault-refugees-migrants-afghans/'},
         ### These are the more tentative links
         'Link 29': {'year': 2017, 'title': 'Police Crackdowns on Immigrants', 'outlet': 'Reuters', 'subtitle': 'Following an April terrorist attack, Swedish police carried out mass investigations of workplace employment records and raids on construction sites, targeting illegal immigrants.', 'url': 'https://www.reuters.com/article/us-sweden-immigration-crackdown/sweden-intensifies-crackdown-on-illegal-immigrants-idUSKBN19Y0G8/'},
-        'Link 30': {'year': 2018, '': 'Immigrants Perpetrate Most Rapes', 'outlet': 'BBC', 'subtitle': 'Reports show that foreign-born residents commit around 58 percent of rapes, with the number increasing to 80 percent for rapes by strangers.', 'url': 'https://www.bbc.com/news/world-europe-45269764'},
-        'Link 31': {'year': 2018, '': 'Immigrantion Causing High Unemployment', 'outlet': 'Beaumont Enterprise', 'subtitle': 'Immigrants have a higher unemployment level than native Swedes, driving overall unemployment rates in Sweden to the highest level in the Nordics.', 'url': 'https://www.beaumontenterprise.com/news/article/Unemployment-is-haunting-Sweden-years-after-the-13361549.php'},
-        'Link 32': {'year': 2018, '': 'Gangs Burn 80 Cars', 'outlet': 'BBC', 'subtitle': 'In coordinated attacks in immigrant neighborhoods, youth gangs set fire to over 80 cars.', 'url': 'https://www.bbc.com/news/world-europe-45181321'},
-        'Link 33': {'year': 2018, '': 'Anti-Immigration Electoral Gains', 'outlet': 'VOA', 'subtitle': 'The Sweden Democrats, an anti-immigration party, became the third most popular party in parliament after elections.', 'url': 'https://www.voanews.com/a/swedish-anti-immigration-party-gains-popularity/4563667.html'},
-        'Link 34': {'year': 2018, '': 'Terrorist Sentenced to Life', 'outlet': 'Australian Broadcasting Corporation', 'subtitle': 'Details regarding the sentencing of the 2017 lorry attack perpetrator.', 'url': 'https://www.abc.net.au/news/2018-06-07/stockholm-truck-attack-suspect-gets-life-sentence/9847106'},
-        'Link 35': {'year': 2019, '': '100 Explosions in Sweden', 'outlet': 'BBC', 'subtitle': 'Sweden is suffering from a sharp increase in intentional explosions and bombings.', 'url': 'https://www.bbc.com/news/world-europe-50339977'},
-        'Link 36': {'year': 2019, '': 'Increased Border Security', 'outlet': 'Financial Times', 'subtitle': 'An explanation of increased border security measures between Sweden and Denmark following increasing instances of violent crime.', 'url': 'https://www.ft.com/content/9c0d30ea-eb46-11e9-85f4-d00e5018f061'},
-        'Link 37': {'year': 2019, '': 'Jewish Woman Stabbed in Sweden', 'outlet': 'Jerusalem Post', 'subtitle': 'Details regarding the stabbing of a Jewish woman by a Muslim man in Helsingborg, Sweden.', 'url': 'https://www.jpost.com/diaspora/jewish-woman-stabbed-in-sweden-589669'},
+        'Link 30': {'year': 2018, 'title': 'Immigrants Perpetrate Most Rapes', 'outlet': 'BBC', 'subtitle': 'Reports show that foreign-born residents commit around 58 percent of rapes, with the number increasing to 80 percent for rapes by strangers.', 'url': 'https://www.bbc.com/news/world-europe-45269764'},
+        'Link 31': {'year': 2018, 'title': 'Immigrantion Causing High Unemployment', 'outlet': 'Beaumont Enterprise', 'subtitle': 'Immigrants have a higher unemployment level than native Swedes, driving overall unemployment rates in Sweden to the highest level in the Nordics.', 'url': 'https://www.beaumontenterprise.com/news/article/Unemployment-is-haunting-Sweden-years-after-the-13361549.php'},
+        'Link 32': {'year': 2018, 'title': 'Gangs Burn 80 Cars', 'outlet': 'BBC', 'subtitle': 'In coordinated attacks in immigrant neighborhoods, youth gangs set fire to over 80 cars.', 'url': 'https://www.bbc.com/news/world-europe-45181321'},
+        'Link 33': {'year': 2018, 'title': 'Anti-Immigration Electoral Gains', 'outlet': 'VOA', 'subtitle': 'The Sweden Democrats, an anti-immigration party, became the third most popular party in parliament after elections.', 'url': 'https://www.voanews.com/a/swedish-anti-immigration-party-gains-popularity/4563667.html'},
+        'Link 34': {'year': 2018, 'title': 'Terrorist Sentenced to Life', 'outlet': 'Australian Broadcasting Corporation', 'subtitle': 'Details regarding the sentencing of the 2017 lorry attack perpetrator.', 'url': 'https://www.abc.net.au/news/2018-06-07/stockholm-truck-attack-suspect-gets-life-sentence/9847106'},
+        'Link 35': {'year': 2019, 'title': '100 Explosions in Sweden', 'outlet': 'BBC', 'subtitle': 'Sweden is suffering from a sharp increase in intentional explosions and bombings.', 'url': 'https://www.bbc.com/news/world-europe-50339977'},
+        'Link 36': {'year': 2019, 'title': 'Increased Border Security', 'outlet': 'Financial Times', 'subtitle': 'An explanation of increased border security measures between Sweden and Denmark following increasing instances of violent crime.', 'url': 'https://www.ft.com/content/9c0d30ea-eb46-11e9-85f4-d00e5018f061'},
+        'Link 37': {'year': 2019, 'title': 'Jewish Woman Stabbed in Sweden', 'outlet': 'Jerusalem Post', 'subtitle': 'Details regarding the stabbing of a Jewish woman by a Muslim man in Helsingborg, Sweden.', 'url': 'https://www.jpost.com/diaspora/jewish-woman-stabbed-in-sweden-589669'},
         # 'Link 38': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': 'https://www.jpost.com/diaspora/jewish-woman-stabbed-in-sweden-589669'},
         # 'Link 39': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': 'https://www.aljazeera.com/news/2019/1/18/swedens-prime-minister-stefan-lofven-wins-second-term'},
         # 'Link 40': {'year': 2019, 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
@@ -143,8 +143,8 @@ def main():
     for link_name, link_info in links_data.items():
         if link_info['year'] == selected_year:
             st.sidebar.markdown(f"### [{link_info['title']}]({link_info['url']})")
-            st.sidebar.markdown(f"**Author:** {link_info['outlet']}")
-            st.sidebar.markdown(f"**Subtitle:** {link_info['subtitle']}")
+            st.sidebar.markdown(f"**Outlet:** {link_info['outlet']}")
+            st.sidebar.markdown(f"**Description:** {link_info['subtitle']}")
             st.sidebar.markdown("---")
 
 
