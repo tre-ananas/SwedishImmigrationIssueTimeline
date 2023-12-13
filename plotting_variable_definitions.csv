@@ -1,8 +1,8 @@
 Variable,Definition
 Year,the year the data comes from
-FVS for Non-Immigration Documents,the average fear-violence score for documents not related to immigration issues
-FVS for Immigration Documents,the average fear-violence score for documents related to immigration issues; positive numbers indicate that the average fear-value score for immigration-related documents is higher than that of non-immigrant-related documents
-FVS Disparity,the difference between the average fear-violence scores for documents related to immigration and documents not related to immigration
+FVS for Non-Immigration Documents,the average fear-violence score for documents not related to immigration issues; higher scores indicate more fearful and aggressive rhetoric
+FVS for Immigration Documents,the average fear-violence score for documents related to immigration issues; higher scores indicate more fearful and aggressive rhetoric
+FVS Disparity,the difference between the average fear-violence scores for documents related to immigration and documents not related to immigration; positive numbers indicate that the average fear-value score for immigration-related documents is higher than that of non-immigrant-related documents
 Proportion of Documents Covering Immigration,the percentage of documents containing keywords indicating that they may relate to immigration issues
 Unemployment Rate,official unemployment rate for all Swedish residents
 GDP Per Capita,official GDP per capita for all Swedish residents

@@ -122,17 +122,19 @@ def main():
         'Link 26': {'year': 2016, 'title': 'Fear Manifests Politically', 'outlet': 'NPR', 'subtitle': 'Increases in immigrant populations spark Swedish fears and an anti-immigrant political backlash.', 'url': 'https://www.npr.org/sections/parallels/2016/04/06/473261682/as-sweden-absorbs-refugees-some-warn-the-welcome-wont-last'},
         'Link 27': {'year': 2016, 'title': 'New Identity Checks', 'outlet': 'The Conversation', 'subtitle': 'Sweden implements identity checks on traffic between Sweden and Denmark to crack down on refugee inflow.', 'url': 'https://theconversation.com/why-is-sweden-tightening-its-borders-after-years-of-welcoming-migrants-53000'},
         'Link 28': {'year': 2016, 'title': 'Coverups for Asylum Seekers', 'outlet': 'TIME', 'subtitle': 'Swedish police launch an investigation into a potential cover up of a sexual assaults perpetrated by Afghani migrants.', 'url': 'https://time.com/4176681/sweden-police-sexual-assault-refugees-migrants-afghans/'},
-        # 'Link 29': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 30': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 31': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 32': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 33': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 34': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 35': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 36': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 37': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 38': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
-        # 'Link 39': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
+        ### These are the more tentative links
+        'Link 29': {'year': 2017, 'title': 'Police Crackdowns on Immigrants', 'outlet': 'Reuters', 'subtitle': 'Following an April terrorist attack, Swedish police carried out mass investigations of workplace employment records and raids on construction sites, targeting illegal immigrants.', 'url': 'https://www.reuters.com/article/us-sweden-immigration-crackdown/sweden-intensifies-crackdown-on-illegal-immigrants-idUSKBN19Y0G8/'},
+        'Link 30': {'year': 2018, '': 'Immigrants Perpetrate Most Rapes', 'outlet': 'BBC', 'subtitle': 'Reports show that foreign-born residents commit around 58 percent of rapes, with the number increasing to 80 percent for rapes by strangers.', 'url': 'https://www.bbc.com/news/world-europe-45269764'},
+        'Link 31': {'year': 2018, '': 'Immigrantion Causing High Unemployment', 'outlet': 'Beaumont Enterprise', 'subtitle': 'Immigrants have a higher unemployment level than native Swedes, driving overall unemployment rates in Sweden to the highest level in the Nordics.', 'url': 'https://www.beaumontenterprise.com/news/article/Unemployment-is-haunting-Sweden-years-after-the-13361549.php'},
+        'Link 32': {'year': 2018, '': 'Gangs Burn 80 Cars', 'outlet': 'BBC', 'subtitle': 'In coordinated attacks in immigrant neighborhoods, youth gangs set fire to over 80 cars.', 'url': 'https://www.bbc.com/news/world-europe-45181321'},
+        'Link 33': {'year': 2018, '': 'Anti-Immigration Electoral Gains', 'outlet': 'VOA', 'subtitle': 'The Sweden Democrats, an anti-immigration party, became the third most popular party in parliament after elections.', 'url': 'https://www.voanews.com/a/swedish-anti-immigration-party-gains-popularity/4563667.html'},
+        'Link 34': {'year': 2018, '': 'Terrorist Sentenced to Life', 'outlet': 'Australian Broadcasting Corporation', 'subtitle': 'Details regarding the sentencing of the 2017 lorry attack perpetrator.', 'url': 'https://www.abc.net.au/news/2018-06-07/stockholm-truck-attack-suspect-gets-life-sentence/9847106'},
+        'Link 35': {'year': 2019, '': '100 Explosions in Sweden', 'outlet': 'BBC', 'subtitle': 'Sweden is suffering from a sharp increase in intentional explosions and bombings.', 'url': 'https://www.bbc.com/news/world-europe-50339977'},
+        'Link 36': {'year': 2019, '': 'Increased Border Security', 'outlet': 'Financial Times', 'subtitle': 'An explanation of increased border security measures between Sweden and Denmark following increasing instances of violent crime.', 'url': 'https://www.ft.com/content/9c0d30ea-eb46-11e9-85f4-d00e5018f061'},
+        'Link 37': {'year': 2019, '': 'Jewish Woman Stabbed in Sweden', 'outlet': 'Jerusalem Post', 'subtitle': 'Details regarding the stabbing of a Jewish woman by a Muslim man in Helsingborg, Sweden.', 'url': 'https://www.jpost.com/diaspora/jewish-woman-stabbed-in-sweden-589669'},
+        # 'Link 38': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': 'https://www.jpost.com/diaspora/jewish-woman-stabbed-in-sweden-589669'},
+        # 'Link 39': {'year': , 'title': '', 'outlet': '', 'subtitle': '', 'url': 'https://www.aljazeera.com/news/2019/1/18/swedens-prime-minister-stefan-lofven-wins-second-term'},
+        # 'Link 40': {'year': 2019, 'title': '', 'outlet': '', 'subtitle': '', 'url': ''},
     }
     
     # Display links based on the selected year
@@ -156,7 +158,7 @@ def main():
     ###
 
     # Main content in the middle
-    st.title('Reconquering Swedenistan: An Exploration of Law and Order, Assimilation, and Governmental Sentiment and Policy in Sweden')
+    st.title('Reconquering Swedenistan')
 
     # Create tabs
     tab_titles = ['Home', 'Data Exploration', 'Election Results', 'Figures and Tables']
@@ -165,8 +167,16 @@ def main():
     # Add content to the Data Preprocessing tab
     with tabs[0]:
         st.header('Homepage')
-        st.write('***HOMEPAGE UNDER CONSTRUCTION***')
-        st.write('This webapp acts as a companion to [INSERT PDF DOWNLOAD LINK], published on December 15, 2023 by Ryan Wolff. The paper examines the probable link between assimilation failures, the degredation of law and order, and the political backlash facing immigrants in Sweden, particularly from 2012-2023. This research centers around a sentiment analysis of approximately 17,000 government documents from the Swedish archive [INSERT HYPERLINK]. The code used to scrape, process, and analyze that data can be found at this GitHub repository [INSERT HYPERLINK].')
+        st.write('***NOTE (12/12/23): This web app is not yet complete, as I am still stress testing and improving various parts of it. It will--in its first official form--be published on Friday, 12/15 along with my research paper. After the initial launch, I will potentially add more detailed election results, a small library of links and summaries of Swedish policies and party platforms, and many more statistics for the data exploration page. Ultimately, I intend for this tool to become an authoritative, comprehensive reference for those hoping to develop a more nuanced, robust view of the immigration issue facing Sweden and, by extension, Europe. Enjoy using the Data Exploration, Election Results, and Figures and Tables tabs for now!***')
+
+        # Spacing
+        st.markdown('')
+        st.markdown('')
+        st.markdown('')
+
+        st.header('Reconquering Swedenistan: An Exploration of Law and Order, Assimilation, and Governmental Sentiment and Policy in Sweden')
+        st.write('[INSERT MISSION STATEMENT]')
+        st.write('This webapp acts as a companion to [INSERT PDF DOWNLOAD LINK FOR PAPER], published on December 15, 2023 by Ryan Wolff. The paper examines the probable link between assimilation failures, the degredation of law and order, and the political backlash facing immigrants in Sweden, particularly from 2012-2023. This research centers around a sentiment analysis of approximately 17,000 government documents from the Swedish archive [INSERT HYPERLINK]. The code used to scrape, process, and analyze that data can be found at this GitHub repository [INSERT HYPERLINK].')
 
     # Add content to the Model Training tab
     with tabs[1]:
@@ -245,8 +255,8 @@ def main():
     # Add content to the Model Evaluation tab
     with tabs[2]:
         st.header('Election Results with Regards to Immigration Policy')
-        st.write('Explore election results with pie charts.')
-        st.write('Friendly parties are generally more pro-immigration; Hostile parties are generally advocate stricter immigration laws.')
+        st.write('Explore recent election results with pie charts.')
+        st.write('Friendly parties generally advocate looser immigration laws and increased defenses and/or benefits for immigrants; Hostile parties generally advocate stricter immigration laws.')
         st.markdown('')
         st.markdown('')
         st.markdown('')
@@ -290,10 +300,27 @@ def main():
 
     # Add content to the Results Visualization tab
     with tabs[3]:
-        st.header('Figures and Tests')
+        st.header('Figures, Tables, and Tests')
         st.write('Explore key figures and statistical tests on this tab.')
 
-        # Insert blank lines for separation
+        st.header('Order of Contents')
+        st.write('1. Summary Table')
+        st.write('2. Data on Crime and Demographics')
+        st.write('3. Law and Order Metrics')
+        st.write('4. Assimilation Metrics')
+        st.write('5. Economic Metrics')
+        st.write('6. Voter Input')
+        st.write('7. Fear-Violence Score')
+
+        # Spacing
+        st.markdown("")
+        st.markdown("")
+        st.markdown("")
+
+        st.header('Summary Table')
+        st.image('summary_table.jpg', caption='Grand Summary of Independent and Dependent Variable Tests; Bolding Represents a Statistically-Significant Difference of Means', use_column_width=True)
+
+        # Spacing
         st.markdown("")
         st.markdown("")
         st.markdown("")
@@ -336,16 +363,17 @@ def main():
         st.markdown("")
 
         st.header('Fear-Violence Score')
-        st.image('figure_20_21.jpg', caption='Figures 20 & 21: T-Tests for Fear-Violence Scores', use_column_width=True)
-        st.image('figure_22.jpg', caption='Figure 22: T-Test for Fear-Violence Scores', use_column_width=True)
-        st.image('figure_23.jpg', caption='Figure 23: T-Test for Fear-Violence Scores', use_column_width=True)
+        st.image('results_figure_kennedy.jpg', caption='Figure 20: T-Test for Fear-Violence Scores', use_column_width=True)
+        # st.image('figure_20_21.jpg', caption='Figures 20 & 21: T-Tests for Fear-Violence Scores', use_column_width=True)
+        # st.image('figure_22.jpg', caption='Figure 22: T-Test for Fear-Violence Scores', use_column_width=True)
+        # st.image('figure_23.jpg', caption='Figure 23: T-Test for Fear-Violence Scores', use_column_width=True)
         st.markdown("")
         st.markdown("")
         st.markdown("")
 
-        st.header('Immigration Reference Frequency')
-        st.image('figure_24_25.jpg', caption='Figures 24 & 25: T-Tests for Proportion of Documents Related to Immigration', use_column_width=True)
-        st.image('figure_26.jpg', caption='Figure 26: T-Test for Proportion of Documents Related to Immigration', use_column_width=True)
+        # st.header('Immigration Reference Frequency')
+        # st.image('figure_24_25.jpg', caption='Figures 24 & 25: T-Tests for Proportion of Documents Related to Immigration', use_column_width=True)
+        # st.image('figure_26.jpg', caption='Figure 26: T-Test for Proportion of Documents Related to Immigration', use_column_width=True)
         
 
 
