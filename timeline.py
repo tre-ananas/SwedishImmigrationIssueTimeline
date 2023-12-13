@@ -18,6 +18,7 @@ import numpy as np
 # Load data
 plotting_data = pd.read_csv('plotting_data.csv')
 election_data = pd.read_csv('election_data.csv')
+variable_definitions = pd.read_csv('plotting_variable_definitions.csv')
 
 
 
@@ -172,9 +173,6 @@ def main():
         st.header('Data Exploration')
         st.write('Explore the data using up to 5 interactive line and scatter plots.')
 
-        
-        st.write('***VARIABLE DESCRIPTIONS UNDER CONSTRUCTION***')
-
         # Spacing
         st.markdown('')
         st.markdown('')
@@ -192,8 +190,23 @@ def main():
                 plot_type = st.radio(f"Plot {i + 1} Type:", ('line', 'scatter'))
                 y_variable = st.selectbox(f'Y-axis variable for Plot {i + 1}:', timeline_variables)
 
+                # Display variable definition/description with Markdown formatting for the first variable
+                variable_description_1 = variable_definitions.loc[variable_definitions['Variable'] == y_variable, 'Definition'].values
+                description_text_1 = f"**Definition of {y_variable}:** {variable_description_1[0] if variable_description_1 else 'Not available'}"
+                st.markdown(description_text_1, unsafe_allow_html=True)
+
                 # If plot type is 'line', set x_variable to 'Year'
                 x_variable = 'Year' if plot_type == 'line' else st.selectbox(f'X-axis variable for Plot {i + 1}:', timeline_variables)
+
+                # Display variable definition/description for the second variable if the plot type is a scatter plot
+                if plot_type == 'scatter':
+                    variable_description_2 = variable_definitions.loc[variable_definitions['Variable'] == x_variable, 'Definition'].values
+                    description_text_2 = f"**Definition of {x_variable}:** {variable_description_2[0] if variable_description_2 else 'Not available'}"
+                    st.markdown(description_text_2, unsafe_allow_html=True)
+
+                # Spacing
+                st.markdown('')
+                st.markdown('')
 
             with col2:
                 # Create a Plotly Express plot based on the user's choice
@@ -220,6 +233,14 @@ def main():
 
                 # Display the chart
                 st.plotly_chart(fig)
+
+                # Spacing
+                st.markdown('')
+                st.markdown('')
+
+
+
+
 
     # Add content to the Model Evaluation tab
     with tabs[2]:
