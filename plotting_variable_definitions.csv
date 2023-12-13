@@ -1,0 +1,24 @@
+Variable,Definition
+Year,Year: the year the data comes from
+FVS for Non-Immigration Documents,FVS for Non-Immigration Documents: the average fear-violence score for documents not related to immigration issues
+FVS for Immigration Documents,FVS for Immigration Documents: the average fear-violence score for documents related to immigration issues; positive numbers indicate that the average fear-value score for immigration-related documents is higher than that of non-immigrant-related documents
+FVS Disparity,FVS Disparity: the difference between the average fear-violence score for documents related to immigration and documents not related to immigration
+Proportion of Documents Covering Immigration,Proportion of Documents Covering Immigration: the percentage of documents containing keywords indicating that they may relate to immigration issues
+Unemployment Rate,Unemployment Rate: standard unemployment rate for all Swedish residents
+GDP Per Capita,GDP Per Capita: standard GDP per capita for all Swedish residents
+Average Household Disposable Income,Average Household Disposable Income: the average annual disposable income of a household in Sweden
+Disparity in Youth NEET Rate,"Disparity in Youth NEET Rate: the difference in rates of foreign-born and Swedish-born youth not engaged in education, employment, or training; positive values indicate that foreign born youths are disengaged from education and unemployment at higher rates than Swedish-born youths in Sweden"
+Disparity in Rate of People Leaving Education early,Disparity in Rate of People Leaving Education early: the difference between rates of foreign-born and Swedish-born people leaving education early; positive values indicate that foreign-born people leave education early at higher rates than Swedish-born people in Sweden
+Disparity in Poverty & Exclusion Risk Rate,Disparity in Poverty & Exclusion Risk Rate: the difference between rates of non-EU-born and Swedish-born people at risk for poverty or social exclusion; positive numbers indicate that non-EU-born people face the risk of poverty and social exclusion at higher rates than Swedish-born people in Sweden
+Disparity in Avgerage Disposable Income vs African-born,"Disparity in Avgerage Disposable Income vs African-born: the difference between average annual disposable incomes for Swedish and African-born residents of Sweden; positive numbers indicate that Swedes enjoy higher annual disposable incomes than African-born residents of Sweden, on average"
+Disparity in Avgerage Disposable Income vs Asian-born,"Disparity in Avgerage Disposable Income vs Asian-born: Disparity in Avgerage Disposable Income vs Asian-born: the difference between average annual disposable incomes for Swedish and Asian-born residents of Sweden; positive numbers indicate that Swedes enjoy higher annual disposable incomes than Asian-born residents of Sweden, on average"
+Work Permits Granted,Work Permits Granted: the number of work permits granted by Sweden
+Student Residence Permits Granted,Granted Student Residence Permits: the number of student residence permits granted
+% Swedish Population with a Foreign Background,% Swedish Population with a Foreign Background: the proportion of the Swedish population either born outside Sweden or born in Sweden to two foreign parents
+Immigration to Sweden,Immigration to Sweden: the number of immigrants entering Sweden
+Swedish Population,Swedish Population: the official population of Sweden
+Law & Order Importance Rank According to Voters,"Law & Order Importance Rank According to Voters: Law and Order's importance compared to other political issues, as voted on by a sample of Swedish voters; lower ranks indicate more important issues"
+Immigration and Integration Importance Rank According to Voters,"Immigration and Integration Importance Rank According to Voters: Immigration and integration's importance compared to other political issues, as voted on by a sample of Swedish voters; lower ranks indicate more important issues"
+"Lethal Violence Deaths per 100,000","Lethal Violence Deaths per 100,000: the number of lethal violence deaths in Sweden per 100,000 Swedish residents"
+"Reported Cases of Sexual Offences per 100,000","Reported Cases of Sexual Offenses per 100,000: the number of reported cases of sexual offenses in Sweden per 100,000 Swedish residents"
+"People Prosecuted for Deadly Force per 100,000","People Prosecuted for Deadly Force per 100,000: the number of people prosecuted for deadly force in Sweden per 100,000 Swedish residents"
